@@ -1,7 +1,7 @@
 import React from "react";
 
-const Label = ({ texto }) => {
-  return <label>{texto}</label>;
+const Label = ({ texto, ...args }) => {
+  return <label {...args}>{texto}</label>;
 };
 
 export default Label;

@@ -1,6 +1,7 @@
 import Input from "./Input";
 import Button from "./Button";
-import Label from "./Label";
+// import Label from "./Label";
+import { useEffect, useState } from "react";
 
 export default function App() {
   return (

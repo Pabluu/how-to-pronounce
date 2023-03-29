@@ -13,9 +13,11 @@ export async function searchPhonetic(term) {
     const response = await query.json();
     const data = response[0]["phonetics"];
     const positionAudio = checkAudio(data);
+
+    return data[positionAudio];
   }
 
-  return data[positionAudio];
+  return "";
 }
 
 // Função responsável por saber qual id do objeto possui um audio

@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   transition: ease 0.3s;
+  cursor: auto;
 }
 
 body {
@@ -30,6 +31,10 @@ header.title {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 40px;
+}
+
+.container {
+  row-gap: 50px;
 }
 
 .box-search {
@@ -70,4 +75,23 @@ button:hover {
 button:active {
   background-color: #1b6eea75;
   color: #1b6eea;
+}
+
+.box-found {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+label.title {
+  border-bottom: 1px solid #333;
+}
+
+#audio {
+  display: none;
+}
+
+.resultado:hover {
+  cursor: url("../public/sound.png") 4 12, auto;
 }

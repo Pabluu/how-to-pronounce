@@ -30,7 +30,9 @@ body {
 header.title {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 100%;
 }
 
 .container {
@@ -42,8 +44,8 @@ header.title {
 }
 
 input {
-  width: 400px;
-  height: 40px;
+  width: 17rem;
+  height: 2rem;
   padding: 10px;
   border-radius: 5px;
   border: 2px solid #aeaeae;

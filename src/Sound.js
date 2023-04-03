@@ -2,7 +2,6 @@
 export function playAudio(audio) {
   let sound = document.querySelector("#audio");
   if (audio) {
-    sound.playbackRate = 0.7;
     sound.play();
   }
 }

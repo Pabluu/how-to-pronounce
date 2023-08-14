@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Button from "./components/Button";
-import Input from "./Input";
-import Label from "./Label";
+import Input from "./components/Input";
+import Label from "./components/Label";
 
+import { playAudio, stopAudio } from "./components/Sound";
 import { searchPhonetic } from "./fetch-api";
-import { playAudio, stopAudio } from "./Sound";
 
 // Função principal do projeto
 export default function App() {

@@ -1,9 +1,9 @@
-import Input from "./Input";
-import Button from "./Button";
-import Label from "./Label";
 import { useState } from "react";
+import Button from "./components/Button";
+import Input from "./Input";
+import Label from "./Label";
 
-import { searchPhonetic } from "./main";
+import { searchPhonetic } from "./fetch-api";
 import { playAudio, stopAudio } from "./Sound";
 
 // Função principal do projeto

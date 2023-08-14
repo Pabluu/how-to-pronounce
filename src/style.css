@@ -50,6 +50,7 @@ input {
   border-radius: 5px;
   border: 2px solid #aeaeae;
   transition: ease 0.25s;
+  text-align: center;
 }
 
 input:focus-visible {

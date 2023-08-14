@@ -1,8 +1,14 @@
 # Projeto How-To-Pronounce
 
-Projeto pretende compreender a pronúncia de certas palavras em inglês.
+O projeto tem o objetivo de entender e compreender a escrita e pronuncia de certas palavras em inglês.
 
-## Como utilizar
+**OBS:** Nem toda palavra possui uma pronúncia disponibilizada pela API.
+
+## Como acessar
+[Site do Projeto](https://how-to-pronounce.vercel.app/)
+
+
+## Como rodar localmente
 
 1. [Instale o Node JS](https://nodejs.org/en/download)
 
@@ -20,8 +26,8 @@ Projeto pretende compreender a pronúncia de certas palavras em inglês.
 
 ## Tecnologias Utilizadas
 
-[Free Directory API](https://dictionaryapi.dev/): Utilizada para fazer a busca da Fonética de um determinado termo.
-
-[React](https://pt-br.reactjs.org/): Biblioteca Front-End JS para criação da interface Gráfica.
+[React](https://pt-br.reactjs.org/): Biblioteca Front-end JS para criação da interface Gráfica.
 
 [Node](https://nodejs.org/en/download): Utilizada para a criação do projeto.
+
+[Free Directory API](https://dictionaryapi.dev/): Utilizada para fazer a busca da Fonética de um determinado termo.

@@ -1,6 +1,5 @@
 // Função responsável por buscar a fonetica do termo
 export async function searchPhonetic(term) {
-  const index = 0;
   if (term) {
     const query = await fetch(
       `https://api.dictionaryapi.dev/api/v2/entries/en/${term}`
